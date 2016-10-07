@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DefaultApp</string>
+    <!-- PullToRefreshListView text -->
+    <string name="public_txt_pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="public_txt_pull_to_load_pull_label">上拉加载…</string>
+    <string name="public_txt_pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="public_txt_pull_to_refresh_refreshing_label">正在加载…</string>
+    <string name="no_wlan_text">网络不好再刷新试试看嘛</string>
+</resources>

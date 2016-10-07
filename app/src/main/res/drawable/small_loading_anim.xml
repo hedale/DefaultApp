@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 小菊花动画 -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/smallloading1"
+        android:duration="83"/>
+    <item
+        android:drawable="@drawable/smallloading2"
+        android:duration="83"/>
+    <item
+        android:drawable="@drawable/smallloading3"
+        android:duration="83"/>
+    <item
+        android:drawable="@drawable/smallloading4"
+        android:duration="83"/>
+    <item
+        android:drawable="@drawable/smallloading5"
+        android:duration="83"/>
+    <item
+        android:drawable="@drawable/smallloading6"
+        android:duration="83"/>
+    <item
+        android:drawable="@drawable/smallloading7"
+        android:duration="83"/>
+    <item
+        android:drawable="@drawable/smallloading8"
+        android:duration="83"/>
+    <item
+        android:drawable="@drawable/smallloading9"
+        android:duration="83"/>
+    <item
+        android:drawable="@drawable/smallloading10"
+        android:duration="83"/>
+    <item
+        android:drawable="@drawable/smallloading11"
+        android:duration="83"/>
+    <item
+        android:drawable="@drawable/smallloading12"
+        android:duration="83"/>
+    
+
+</animation-list>

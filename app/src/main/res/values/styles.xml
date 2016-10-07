@@ -1,0 +1,28 @@
+<resources>
+
+
+
+        <!--
+            Base application theme, dependent on API level. This theme is replaced
+            by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        -->
+        <style name="transparentdialog" parent="@android:style/Theme.Dialog">
+            <item name="android:windowBackground"> @android:color/transparent </item>
+            <item name="android:backgroundDimEnabled">false</item>
+        </style>
+
+        <style name="SwipeBack.Transparent.Theme" parent="@android:style/Theme.NoTitleBar">
+            <item name="android:windowBackground">@android:color/transparent</item>
+            <item name="android:windowIsTranslucent">true</item>
+            <item name="android:windowShowWallpaper">false</item>
+        </style>
+
+        <!-- mainActivity必须设置为该主题 否则在小米等机型上会touchback回首页会黑屏-->
+        <style name="Theme.MainAct" parent="SwipeBack.Transparent.Theme">
+            <item name="android:windowNoTitle">true</item>
+            <item name="android:windowIsTranslucent">false</item>
+        </style>
+
+
+
+</resources>
