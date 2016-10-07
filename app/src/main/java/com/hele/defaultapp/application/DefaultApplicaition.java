@@ -29,7 +29,6 @@ public class DefaultApplicaition extends Application{
 		CustomCrashHandler crashHandler = CustomCrashHandler.getInstance();  
 		crashHandler.setCustomCrashHanler(getApplicationContext());  
 		initImageLoader(getApplicationContext());
-		System.out.print("helelele");
 	}
 	
 	
@@ -41,8 +40,8 @@ public class DefaultApplicaition extends Application{
 	public static void initImageLoader(Context context) {
 
 		if (options == null) {
-			options = new DisplayImageOptions.Builder().showImageOnLoading(R.mipmap.default_image)
-					.showImageForEmptyUri(R.mipmap.default_image).showImageOnFail(R.mipmap.default_image)
+			options = new DisplayImageOptions.Builder().showImageOnLoading(R.drawable.default_image)
+					.showImageForEmptyUri(R.drawable.default_image).showImageOnFail(R.drawable.default_image)
 					.resetViewBeforeLoading(true).cacheInMemory(true).cacheOnDisk(true)
 					.displayer(new FadeInBitmapDisplayer(300)).imageScaleType(ImageScaleType.IN_SAMPLE_INT)
 					.considerExifParams(true).bitmapConfig(Bitmap.Config.RGB_565).build();
